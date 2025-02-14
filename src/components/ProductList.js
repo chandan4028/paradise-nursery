@@ -4,9 +4,9 @@ import { addToCart } from "../slices/cartSlice";
 import "./ProductList.css";
 
 const products = [
-    { id: 1, name: "Snake Plant", price: 15, img: "/images/images1.jpg" },
-    { id: 2, name: "Aloe Vera", price: 12, img: "/images/images2.jpg" },
-    { id: 3, name: "Fiddle Leaf Fig", price: 30, img: "/images/images3.jpg" },
+    { id: 1, name: "Snake Plant", price: 15, img: "/paradise-nursery/images/images1.jpg" },
+    { id: 2, name: "Aloe Vera", price: 12, img: "/paradise-nursery/images/images2.jpg" },
+    { id: 3, name: "Fiddle Leaf Fig", price: 30, img: "/paradise-nursery/images/images3.jpg" },
 ];
 
 const ProductList = () => {

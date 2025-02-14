@@ -10,7 +10,7 @@ import store from "./store";
 function App() {
     return (
         <Provider store={store}>
-            <Router>
+            <Router basename="/paradise-nursery/">
               <Header />
                 <Routes>
                     <Route path="/" element={<LandingPages />} />
